@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head><center>
+  <body><p>
+    <body text = "sky blue" bgcolor = "white"></body>
+    <h1><u>Video Controller </u></h1></p>
+    <video src="videoplayback.mp4" autoplay controls id="video"></video>
+    </video>
+<br>
+    <button type="button"name="button"
+    onclick="play()">play</button>
+
+        <button type="button"name="button"
+        onclick="pause()"> pause </button>
+        <br>
+        <br>
+        <p>
+          <h1><u>Audio Controller </su></h1></p>
+        <audio src="Dung Dung Dung Dung -- Naasongs.me.mp3" audio controls id="audio">
+
+</audio>
+<br>
+<br>
+        <button type="button"name="button"
+        onclick="play1()">play</button>
+
+            <button type="button"name="button"
+            onclick="pause1()"> pause </button>
+<br></center>
+  </body>
+</html>
+<script type="text/javascript">
+function play(){
+  var vid=document.getElementById('video');
+  vid.play();
+}
+function pause(){
+  var vid=document.getElementById('video');
+  vid.pause();
+}
+function play1(){
+  var aud=document.getElementById('audio');
+  aud.play();
+}
+function pause1(){
+  var vid=document.getElementById('audio');
+  vid.pause();
+}
+
+</script>
